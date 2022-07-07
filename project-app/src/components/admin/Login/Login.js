@@ -27,12 +27,12 @@ function Login(){
 
     return(
         <>
-            <div className="row p-5 w-50 mx-auto">
+            <div className="row p-3 w-50 mx-auto">
                 <div className="col-sm-12 ">
                     
                     <div className="col-sm-10">
 
-                        <h5 className="p-3 border rounded-3 border-2 text-center text-white bg-dark">LOGIN</h5>
+                        <h5 className="p-1 border rounded-3 border-2 text-center text-white bg-dark">LOGIN</h5>
 
                         <form onSubmit={handleSubmit(onSubmit)} className="p-1 ">
 

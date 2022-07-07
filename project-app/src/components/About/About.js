@@ -13,7 +13,7 @@ function About(){
     },[])
 
     return(
-        <div className="row">
+        <div className="row p-3">
             <div className="col-sm-1"></div>
                 <div 
                     className="col-sm-10"

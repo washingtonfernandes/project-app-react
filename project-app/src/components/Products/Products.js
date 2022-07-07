@@ -23,8 +23,8 @@ function Products(){
                    <h2>Página de produtos</h2> 
                    <ul class="nav">
                        {categories.map((category)=>
-                            <li class="nav-item" KEY ={category.catId}>
-                                <Link class="nav-link active" to={category.catId}>
+                            <li className="nav-item" KEY ={category.catId}>
+                                <Link className="nav-link active bg-dark text-white" to={category.catId}>
                                     {category.name}
                                 </Link>
                             </li>

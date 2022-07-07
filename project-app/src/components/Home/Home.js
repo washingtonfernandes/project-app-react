@@ -13,8 +13,8 @@ function Home(){
     },[])
 
     return(
-        <div className="row ">
-            <div className="col-sm-1"></div>
+        <div className="row p-3 ">
+            <div className="col-sm-6"></div>
                 <div 
                     className="col-sm-10"
                     dangerouslySetInnerHTML={
@@ -25,7 +25,7 @@ function Home(){
                 >
                     
                 </div>
-            <div className="col-sm-1"></div>
+            <div className="col-sm-6"></div>
         </div>
     )
 }

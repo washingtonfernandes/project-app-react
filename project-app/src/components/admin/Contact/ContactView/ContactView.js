@@ -56,10 +56,6 @@ function ContactView(){
                                     <td>{contact.name}</td>
                                     <td>{contact.email}</td>
                                     <td>{contact.message}</td>
-                                    <td>{
-                                            <span class="badge bg-success">Sucesso</span>
-
-                                        }</td>
                                     <td>
                                         <button 
                                             className="btn btn-primary"
